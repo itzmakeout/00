@@ -1,0 +1,26 @@
+.homepage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/street-background.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.house {
+  position: relative;
+}
+
+.car {
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+  cursor: pointer;
+}
+
+.door {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
